@@ -1,0 +1,8 @@
+# Regras de análise do código (avisos do VS Code).
+# Usamos as regras recomendadas pelo próprio Flutter.
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+include: package:flutter_lints/flutter.yaml
