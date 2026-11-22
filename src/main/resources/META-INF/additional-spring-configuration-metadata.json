@@ -1,0 +1,15 @@
+
+{
+  "properties": [
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Chave secreta utilizada para assinar os tokens JWT."
+    },
+    {
+      "name": "app.jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "Tempo de validade dos tokens JWT em milissegundos."
+    }
+  ]
+}
